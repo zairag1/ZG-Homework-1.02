@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+    text-align: center; 
+        border: 35px solid;
+        border-image: url(../MEDIA/IMAGES/water.webp) 50;
+    }
+
+.name{
+    color: darkgreen;
+    font-size: 150px;
+    margin-top: 100px;
+    margin-bottom: 6%;
+    font-family: norsebold, system-ui;
+}
+
+.occupation{
+    color: darkgreen;
+    font-size: 70px;
+    font-family: norse, system-ui;
+}
+
+img{
+    width: 700px;
+    display: block;
+    margin: auto;
+}
+
+.important{
+    color: gold;
+    font-size: 45px;
+    font-family: norsebold, system-ui;
+}
+
+.list{
+    color: gold;
+    display: inline-block;
+    font-size: 30px;
+    margin-bottom: 8%;
+    font-family: norse, system-ui;
+}
+
+.quote{
+    color: darkgreen;
+    text-decoration: italic;
+    font-style: italic;
+    font-size: 55px;
+    font-family: norsebold, system-ui;
+    margin-bottom: 150px;
+}
+
+.table table,td{
+    color: gold;
+    table-layout: auto;
+    border: 2px solid;
+    width: auto;
+    border-color: darkgreen;
+    font-family: norse, system-ui;
+    font-size: 30px;
+}
+
+.table{
+    margin: auto;
+}
+
+.fullname{
+    font-family: norsebold, system-ui;
+}
+
+.age{
+    font-family: norsebold, system-ui;
+}
+
+.god{
+    font-family: norsebold, system-ui;
+}
+
+.character{
+    font-family: norsebold, system-ui;
+}
+
+.information{
+    color: gold;
+    font-family: norsebold, system-ui;
+    font-size: 55px;
+}
+
+audio{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+@font-face{
+    src: url("../MEDIA/FONTS/norse/Norse.otf");
+    font-family: norse;
+}
+
+@font-face{
+    src: url("../MEDIA/FONTS/norse/Norsebold.otf");
+    font-family: norsebold;
+}
